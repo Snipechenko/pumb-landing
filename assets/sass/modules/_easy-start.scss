@@ -1,0 +1,157 @@
+.easy-start {
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #164569;
+    text-align: center;
+  }
+
+  .easy-count {
+    margin-top: 100px;
+  }
+
+  .apply-container {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+    justify-content: space-between;
+
+    .leave-apply {
+      width: 430px;
+      height: 140px;
+      box-shadow: 20px 22px 32px rgba(0, 0, 0, 0.17);
+      border-radius: 10px;
+      background-image: linear-gradient(169deg, #2f91dd 0%, #1065b3 100%);
+      padding-top: 60px;
+      padding-left: 50px;
+      color: white;
+
+      h3 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      p {
+        margin-top: 12px;
+        font-size: 14px;
+      }
+    }
+
+    .apply-else {
+      width: 50%;
+      margin-left: 50px;
+
+      h3 {
+        font-size: 20px;
+        text-align: left;
+        color: black;
+        font-weight: 700;
+      }
+      p {
+        margin-top: 13px;
+        color: black;
+      }
+    }
+  }
+
+  .delivery {
+    margin-top: 145px;
+  }
+
+  .ecp-container {
+    display: flex;
+    align-items: center;
+
+    .ecp {
+      width: 50%;
+      text-align: right;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      p {
+        margin-top: 20px;
+        color: #818181;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    .ecp-image {
+      margin-top: 50px;
+      margin-left: 120px;
+    }
+  }
+
+  .card-container {
+    display: flex;
+
+    .card-image {
+      width: 50%;
+      text-align: center;
+    }
+
+    .card-text {
+      margin-top: 50px;
+      width: 50%;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 14px;
+        color: #818181;
+        margin-top: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .currency-text {
+    font-size: 26px;
+    font-weight: 500;
+    color: #164569;
+    text-align: center;
+  }
+
+  .currency-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .currency-apply {
+      width: 40%;
+      text-align: right;
+    }
+
+    .currency {
+      width: 20%;
+      text-align: center;
+    }
+
+    .currency-info {
+      width: 40%;
+    }
+
+    p {
+      font-size: 14px;
+      color: #818181;
+      line-height: 20px;
+
+      .text-decoration {
+        color: red;
+        text-decoration: line-through;
+      }
+      .text-decor {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}

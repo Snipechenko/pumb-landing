@@ -1,0 +1,37 @@
+.flex-container {
+
+  h2 {
+    text-align: left;
+  }
+
+  h4 {
+    color: #818181;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .container-assistant {
+    background-image: url("/assets/images/background_gradient.png");
+    min-height: 343px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+
+    .assistant {
+      width: 75%;
+      margin-top: 30px;
+
+      h6 {
+        font-size: 14px;
+        color: #000000;
+        font-weight: 700;
+      }
+    }
+
+    .assistant-image {
+      position: absolute;
+      left: 800px;
+      top: -200px;
+    }
+  }
+}

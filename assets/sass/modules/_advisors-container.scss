@@ -1,0 +1,31 @@
+.advisors-container {
+  margin-top: 100px;
+  padding-top: 60px;
+  background-image: url("/assets/images/advisors.png");
+  background-repeat: no-repeat;
+  min-height: 292px;
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #164569;
+    text-align: center;
+  }
+
+  .advisors {
+    margin-top: 77px;
+    margin-left: 410px;
+    display: flex;
+
+    div {
+      width: 25%;
+
+      p {
+        font-size: 14px;
+        font-weight: 700;
+        position: relative;
+
+      }
+    }
+  }
+}

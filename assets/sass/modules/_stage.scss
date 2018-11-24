@@ -1,0 +1,40 @@
+.stage {
+
+  background-image: url("/assets/images/background1.png"); //Спросить Брабуса за бекграунд
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+
+
+  .text-wrapper { //Спросить Брабуса про расположение текста
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+    .text-left {
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h3 {
+        font-size: 17px;
+      }
+    }
+    .text-right {
+
+      h6 {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      h5 {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.internet-banking {
+
+  h1 {
+    margin-top: 100px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #164569;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #818181;
+    text-align: left;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .banking-flex {
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+
+    .notepad-text {
+      margin-left: 70px;
+    }
+
+    .functional {
+      margin-top: 20px;
+    }
+    ul {
+      margin-top: 28px;
+    }
+    li {
+      padding-left: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: url("/assets/images/oval.png");
+      }
+    }
+  }
+}
