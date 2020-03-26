@@ -23,6 +23,10 @@
     display: flex;
     align-items: center;
 
+    .banking-notepad {
+      margin-left: -75px;
+    }
+
     .notepad-text {
       margin-left: 70px;
     }
@@ -43,7 +47,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        content: url("/assets/images/oval.png");
+        content: url("assets/images/oval.png");
+
       }
     }
   }

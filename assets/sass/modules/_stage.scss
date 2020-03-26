@@ -1,19 +1,22 @@
 .stage {
 
-  background-image: url("/assets/images/background1.png"); //Спросить Брабуса за бекграунд
+  background-image: url("assets/images/background1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 400px;
 
-
-  .text-wrapper { //Спросить Брабуса про расположение текста
+  .text-wrapper {
     display: flex;
     justify-content: space-around;
     color: white;
+    min-height: 400px;
+
+    .text-column {
+      width: 33%;
+    }
 
     .text-left {
-
+      align-self: center;
       h1 {
         font-size: 32px;
       }
@@ -23,8 +26,8 @@
       }
     }
     .text-right {
-
-      h6 {
+      align-self: flex-end;
+      h6 {                          // Не юзать "h" не по назначению!
         font-size: 20px;
       }
 
